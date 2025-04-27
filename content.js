@@ -22,8 +22,10 @@ function injectDiv() {
 
   const newDiv = document.createElement("div");
   newDiv.id = "my-extension-div";
-  newDiv.className = "bg-yellow-300 p-10 mt-4 border border-black text-xl rounded-lg";
-  newDiv.innerText = "This shit crazy 👻👻👻";
+  newDiv.className =
+    "bg-yellow-300 p-10 mt-4 border border-black text-xl rounded-lg";
+  newDiv.innerText =
+    "THIS IS A TEST TEXT. THIS DIV IS INJECTED BY A CUSTOM EXTENSION";
 
   player.parentElement.insertBefore(newDiv, player.nextSibling);
 }
