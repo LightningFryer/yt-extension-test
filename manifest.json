@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Div Injector",
+  "version": "1.0",
+  "description": "Injects a div into the Youtube page.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting"]
+}
