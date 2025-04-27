@@ -23,7 +23,7 @@ function injectDiv() {
   const newDiv = document.createElement("div");
   newDiv.id = "my-extension-div";
   newDiv.className =
-    "bg-yellow-300 p-10 mt-4 border border-black text-xl rounded-lg";
+    "bg-yellow-300 p-5 mt-4 border border-black text-xl rounded-lg text-2xl";
   newDiv.innerText =
     "THIS IS A TEST TEXT. THIS DIV IS INJECTED BY A CUSTOM EXTENSION";
 
